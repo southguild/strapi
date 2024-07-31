@@ -10,8 +10,8 @@ WORKDIR /app
 # Copy package.json and package-lock.json (if available)
 COPY package.json ./
 
-# Install dependencies
-RUN pnpm install
+# install depenedencies
+RUN pnpm install && pnpm clear-cache
 
 # Copy the rest of your app's source code
 COPY . .
