@@ -19,6 +19,9 @@ COPY . .
 # Set NODE_ENV to production
 ENV NODE_ENV=production
 
+# build
+RUN pnpm build
+
 # Expose the port Strapi runs on
 EXPOSE 1337
 
