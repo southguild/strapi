@@ -1,5 +1,5 @@
 # Use Node.js 20 as the base image
-FROM node:20-alpine
+FROM node:18-alpine
 
 # Install a specific version of npm known to work well with Strapi 4.23.1
 RUN npm install -g npm
