@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_basic_repeatables_texts",
+  "info": {
+    "displayName": "text",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "txt": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_repeatables_molecular_findings",
+  "info": {
+    "displayName": "Molecular Finding"
+  },
+  "options": {},
+  "attributes": {
+    "test": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  }
+}

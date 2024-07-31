@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_basic_repeatables_differential_diagnosis",
+  "info": {
+    "displayName": "Differential Diagnosis",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "distinguishing_features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    }
+  }
+}

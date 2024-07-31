@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_repeatables_immunohistochemistries",
+  "info": {
+    "displayName": "immunohistochemistry"
+  },
+  "options": {},
+  "attributes": {
+    "stain": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_repeatables_special_stains",
+  "info": {
+    "displayName": "specialStains"
+  },
+  "options": {},
+  "attributes": {
+    "stain": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  }
+}

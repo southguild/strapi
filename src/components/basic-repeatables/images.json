@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_basic_repeatables_images",
+  "info": {
+    "displayName": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "media_file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "audios",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

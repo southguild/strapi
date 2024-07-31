@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_basic_repeatables_text_with_high_yield_points",
+  "info": {
+    "displayName": "Text With High Yield Points"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "type": "string"
+    },
+    "highYield": {
+      "type": "boolean"
+    }
+  }
+}

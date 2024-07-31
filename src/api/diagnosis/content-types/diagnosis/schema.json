@@ -1,0 +1,112 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diagnoses",
+  "info": {
+    "singularName": "diagnosis",
+    "pluralName": "diagnoses",
+    "displayName": "Diagnosis",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "diagnosis": {
+      "type": "string"
+    },
+    "bookName": {
+      "type": "string"
+    },
+    "chapterNumber": {
+      "type": "integer"
+    },
+    "chapterTitle": {
+      "type": "string"
+    },
+    "upstreamCategory": {
+      "type": "string"
+    },
+    "clinicalDifferentialDiagnosis": {
+      "displayName": "differential diagnosis",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.differential_diagnosis"
+    },
+    "cytology": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    },
+    "clinicalFeatures": {
+      "displayName": "Text With High Yield Points",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text-with-high-yield-points"
+    },
+    "histoPathologyFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text-with-high-yield-points"
+    },
+    "pathogenesis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    },
+    "immunohistochemistry": {
+      "displayName": "immunohistochemistry",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.immunohistochemistry"
+    },
+    "prognosis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    },
+    "molecularFinding": {
+      "displayName": "Molecular Finding",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.molecular-finding"
+    },
+    "specialStains": {
+      "displayName": "specialStains",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.special-stains"
+    },
+    "histologocalDifferentialDiagnosis": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.differential_diagnosis"
+    },
+    "treatment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    },
+    "workup": {
+      "type": "text"
+    },
+    "exampleReports": {
+      "type": "text"
+    },
+    "macroscopicFeatures": {
+      "type": "component",
+      "repeatable": true,
+      "component": "basic-repeatables.text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
