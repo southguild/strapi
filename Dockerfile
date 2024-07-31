@@ -2,7 +2,7 @@
 FROM node:20-alpine
 
 # Install a specific version of npm known to work well with Strapi 4.23.1
-RUN npm install -g npm
+RUN npm install -g pnpm
 
 # Set the working directory
 WORKDIR /app
@@ -11,7 +11,7 @@ WORKDIR /app
 COPY package.json ./
 
 # Install dependencies
-RUN npm install --legacy-peer-deps
+RUN pnpm install
 
 # Copy the rest of your app's source code
 COPY . .
