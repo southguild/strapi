@@ -32,7 +32,7 @@ WORKDIR /app
 COPY --from=build /app .
 
 # Install only production dependencies
-RUN npm install --production --legacy-peer-deps
+RUN npm install
 
 # Set NODE_ENV to production
 ENV NODE_ENV=production
